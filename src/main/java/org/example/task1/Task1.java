@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Task1 {
     public static void main(String[] args){
         if(args.length < 2){
-            System.out.println("Usage: java CircularArrayPath <n> <m>");
+            return;
         }
         int n = Integer.parseInt(args[0]);
         int m = Integer.parseInt(args[1]);

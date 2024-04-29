@@ -27,7 +27,7 @@ java org/example/task1/Task1 <n> <m>
 ```
 Замените `<n>` и `<m>` на соответствующие аргументы программы.
 
-Задание 2
+### Задание 2
 Перейдите в директорию `src/main/java`.
 
 Компиляция
@@ -38,14 +38,14 @@ javac org/example/task2/Task2.java
 ```bash
 java org.example.task2.Task2 org/example/task2/circle.txt org/example/task2/dot.txt
 ```
-Задание 3
+### Задание 3
 Эта программа требует использования Maven. Убедитесь, что вы находитесь в корневой директории проекта, где расположен файл `pom.xml`.
 
 Запуск
 ```bash
 mvn exec:java -Dexec.args="src/main/java/org/example/task3/values.json src/main/java/org/example/task3/tests.json src/main/java/org/example/task3/report.json"
 ```
-Задание 4
+### Задание 4   
 Перейдите в директорию `src/main/java`.
 
 Компиляция
@@ -56,6 +56,6 @@ javac org/example/task4/Task4.java
 ```bash
 java org.example.task4.Task4 org/example/task4/numbers.txt
 ```
-Зависимости
+## Зависимости   
 Задание 3 использует внешние библиотеки, управляемые через Maven. Для успешного запуска убедитесь, что Maven установлен и настроен правильно.
 

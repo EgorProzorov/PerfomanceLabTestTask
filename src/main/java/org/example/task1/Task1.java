@@ -1,8 +1,5 @@
 package org.example.task1;
 
-
-import java.util.Scanner;
-
 public class Task1 {
     public static void main(String[] args){
         if(args.length < 2){
@@ -11,10 +8,10 @@ public class Task1 {
         int n = Integer.parseInt(args[0]);
         int m = Integer.parseInt(args[1]);
 
-        String answ = "";
+        StringBuilder answ = new StringBuilder();
         int number = 1;
         do {
-            answ += number;
+            answ.append(number);
             number += m - 1;
             if (number > n){
                 number -= n;
